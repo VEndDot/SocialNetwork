@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(blue, rgb(111, 23, 38));
+}
+.left-section p{
+    background-image: linear-gradient(to right, #ff7c2b, #039eff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    margin-left: 10px;
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060505;
+}
+
+.auth-form {
+    background: linear-gradient(blue, rgb(111, 23, 38));
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #ff7c2b, #039eff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.auth-form__input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.auth-form__remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+.auth-form__gender{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #666;   
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.auth-form__select{
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    border: solid 1px #ccc;
+    padding: 4px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.auth-form__remember-me input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.auth-form__link {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    background-image: linear-gradient(to right, #ff7c2b, #039eff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+}
+
+.auth-form .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.auth-form__button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-form__button:hover {
+    background-color: pink;
+}
+
+.auth-form p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-form a {
+    color: blue;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
